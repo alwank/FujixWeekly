@@ -2,7 +2,7 @@
 
 Fuji Pocket is a source-linked, mobile-first companion for Fujifilm recipe settings. It stores recipe metadata, normalized camera settings, and remote URLs for example photographs, then directs readers to the original Fuji X Weekly post. It does not retain article bodies, excerpts, source photos, or downloaded media.
 
-Live site: [lozijak.github.io/FujixWeekly](https://lozijak.github.io/FujixWeekly/)
+Live site: [alwank.github.io/FujixWeekly](https://alwank.github.io/FujixWeekly/)
 
 ## Run locally
 

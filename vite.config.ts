@@ -19,7 +19,10 @@ export default defineConfig(({ mode }) => ({
         scope: "./",
         icons: [{ src: "icon.svg", sizes: "any", type: "image/svg+xml", purpose: "any" }]
       },
-      workbox: { globPatterns: ["**/*.{js,css,html,svg,json}"] }
+      workbox: {
+        globPatterns: ["**/*.{js,css,html,svg,json}"],
+        maximumFileSizeToCacheInBytes: 4 * 1024 * 1024,
+      }
     })
   ]
 }));

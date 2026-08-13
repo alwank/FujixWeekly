@@ -43,6 +43,22 @@ test("parses older line-break layouts and ignores malformed content", () => {
   assert.deepEqual(extractSettings("<div><strong>Not a settings block"), []);
 });
 
+test("parses verified legacy film-simulation setting blocks", () => {
+  const acros = "<p><strong>Acros/Acros+R/Acros+G<br>Dynamic Range: DR200<br>Highlight: +2<br>Shadows: +2<br>Noise Reduction: -2<br>Sharpening: +2<br>Grain Effect: Off<br>ISO: Auto up to 12800</strong></p>";
+  const legacyEterna = "<p><strong>Eterna<br>Dynamic Range: DR100<br>Highlight: +4<br>Shadow: +4<br>Color: +4<br>Noise Reduction: -4<br>Sharpening: +2<br>Grain Effect: Strong<br>Color Chrome Effect: Weak<br>White Balance: Auto, +5 Red &amp; -6 Blue<br>ISO: Auto up to ISO 6400</strong></p>";
+  const labelledEterna = "<p>Film Simulation: Eterna<br>Dynamic Range: DR100<br>Highlight: +4<br>Shadow: +4<br>Color: +4<br>Noise Reduction: -4<br>Sharpening: +2<br>Grain Effect: Strong<br>Color Chrome Effect: Weak<br>White Balance: Auto, +5 Red &amp; -6 Blue<br>ISO: Auto up to ISO 6400</p>";
+
+  assert.equal(recipeFromPost(makePost(42, "2026-01-02T04:00:00+00:00", acros))?.settings[0].value, "Acros/Acros+R/Acros+G");
+  assert.deepEqual(extractSettings(legacyEterna), extractSettings(labelledEterna));
+});
+
+test("does not infer legacy film simulations from nearby text or titles", () => {
+  const settings = "Dynamic Range: DR100<br>Highlight: +1<br>Shadow: +1<br>Color: +1<br>Sharpness: 0";
+  assert.equal(recipeFromPost(makePost(42, "2026-01-02T04:00:00+00:00", `<p>Not a film simulation<br>${settings}</p>`)), null);
+  assert.equal(recipeFromPost({ ...makePost(42, "2026-01-02T04:00:00+00:00", `<p>${settings}</p>`), title: "Classic Chrome Recipe for X-Trans III" }), null);
+  assert.equal(recipeFromPost(makePost(42, "2026-01-02T04:00:00+00:00", `<p>Acros</p><p>${settings}</p>`)), null);
+});
+
 test("keeps only Fuji X Weekly images in the example-photographs section", () => {
   const html = `
     <figure><img src="https://i0.wp.com/fujixweekly.com/wp-content/uploads/lead.jpg" alt="Lead"></figure>
@@ -101,6 +117,25 @@ test("sync is resumable, reprocesses modified posts, and removes stale recipes",
     assert.deepEqual(next, { discovered: 1, processed: 1, recipes: 0 });
     const state = JSON.parse(await readFile(statePath, "utf8"));
     assert.deepEqual(Object.keys(state.posts), ["1"]);
+  } finally {
+    await rm(root, { recursive: true, force: true });
+  }
+});
+
+test("sync reclassifies unchanged rejected posts once after a parser upgrade", async () => {
+  const root = await mkdtemp(join(tmpdir(), "fuji-sync-"));
+  const statePath = join(root, "state.json");
+  const recipePath = join(root, "recipes.json");
+  try {
+    const rejected = makePost(2, "2026-01-02T04:00:00+00:00", "<p>Film Simulation: Provia</p>");
+    await syncRecipes({ fetchImpl: fakeFetch([rejected]), delayMs: 500, statePath, recipePath });
+
+    const state = JSON.parse(await readFile(statePath, "utf8"));
+    delete state.posts["2"].recipeParserVersion;
+    await writeFile(statePath, JSON.stringify(state));
+
+    assert.deepEqual(await syncRecipes({ fetchImpl: fakeFetch([rejected]), delayMs: 500, statePath, recipePath }), { discovered: 1, processed: 1, recipes: 0 });
+    assert.deepEqual(await syncRecipes({ fetchImpl: fakeFetch([rejected]), delayMs: 500, statePath, recipePath }), { discovered: 1, processed: 0, recipes: 0 });
   } finally {
     await rm(root, { recursive: true, force: true });
   }

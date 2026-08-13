@@ -13,7 +13,7 @@ npm run dev
 
 ## Recipe sync
 
-`npm run import` performs a resumable, low-rate sync from Fuji X Weekly's public WordPress API. It inventories post metadata, fetches the HTML of only new or modified posts for transient parsing, and stores a recipe only if it has a Film Simulation plus at least five recognized settings. It also retains remote image URLs, alt text, and captions found in the recipe's Example Photographs section; images are never downloaded or served from this repository.
+`npm run import` performs a resumable, low-rate sync from Fuji X Weekly's public WordPress API. It inventories post metadata, fetches the HTML of only new or modified posts for transient parsing, and stores a recipe only if it has a Film Simulation plus at least five recognized settings. The parser supports both explicit `Film Simulation:` labels and verified legacy setting blocks whose first line is an unlabelled, known Fujifilm film simulation. It also retains remote image URLs, alt text, and captions found in the recipe's Example Photographs section; images are never downloaded or served from this repository.
 
 ```bash
 npm run import
@@ -21,7 +21,7 @@ npm run import -- --delay=2000
 npm run import -- --refresh-images
 ```
 
-The first run evaluates the complete catalog and may take about an hour. Progress is kept in `data/fujixweekly-sync.json`, so interrupted runs resume. `--refresh-images` re-fetches only previously accepted recipes that need their one-time example-photo upgrade. The app data is regenerated at `public/data/recipes.json`; its recipe IDs are stable WordPress source IDs to preserve saved recipes after future syncs.
+The first run evaluates the complete catalog and may take about an hour. Progress is kept in `data/fujixweekly-sync.json`, so interrupted runs resume. Parser upgrades re-evaluate previously rejected posts once, allowing newly supported legacy layouts to be recovered. `--refresh-images` re-fetches only previously accepted recipes that need their one-time example-photo upgrade. The app data is regenerated at `public/data/recipes.json`; its recipe IDs are stable WordPress source IDs to preserve saved recipes after future syncs.
 
 GitHub Actions deploys the static app to GitHub Pages on every push to `main`. The scheduled sync runs daily (and can be started manually), commits only changed generated data, and deploys its updated build directly to Pages. The initial scheduled sync completes the full, resumable catalog backfill.
 

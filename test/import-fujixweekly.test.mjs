@@ -3,7 +3,7 @@ import { mkdtemp, readFile, rm, writeFile } from "node:fs/promises";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
 import test from "node:test";
-import { cameraGeneration, extractExampleImages, extractSettings, recipeFromPost, syncRecipes } from "../scripts/import-fujixweekly.mjs";
+import { cameraGeneration, extractExampleImages, extractSettings, normalizeFilmSimulation, recipeFromPost, syncRecipes } from "../scripts/import-fujixweekly.mjs";
 
 const recipeHtml = `
   <p><strong>Film Simulation:</strong> Classic Chrome</p>
@@ -35,6 +35,14 @@ test("normalizes settings, aliases, and duplicate labels", () => {
   ]);
   assert.equal(cameraGeneration("A 5th-Gen recipe", ""), "X-Trans V");
   assert.equal(cameraGeneration("A GFX recipe", ""), "GFX");
+});
+
+test("normalizes explicit film simulations and strips legacy prose", () => {
+  assert.equal(normalizeFilmSimulation("Classic Negative. This simulation is supposed to mimic Superia"), "Classic Neg");
+  assert.equal(normalizeFilmSimulation("PRO Neg. Hi"), "PRO Neg. Hi");
+  assert.equal(normalizeFilmSimulation("Acros (including +Ye, +R, or +G)"), null);
+  assert.equal(extractSettings("Film Simulation: Eterna. The only other cameras that have Eterna are the X-H1<br>Dynamic Range: DR100<br>Highlight: 0<br>Shadow: 0<br>Color: 0<br>Sharpness: 0")[0].value, "Eterna/Cinema");
+  assert.equal(extractSettings("Provia/STD<br>Dynamic Range: DR100<br>Highlight: 0<br>Shadow: 0<br>Color: 0<br>Sharpness: 0")[0].value, "Provia/Standard");
 });
 
 test("parses older line-break layouts and ignores malformed content", () => {

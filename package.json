@@ -8,12 +8,13 @@
     "build": "tsc -b && vite build",
     "preview": "vite preview",
     "import": "node scripts/sync-fujixweekly.mjs",
-    "test": "node --test test/**/*.test.mjs"
+    "test": "node --import tsx --test test/**/*.test.mjs test/**/*.test.ts"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
     "cheerio": "latest",
     "fast-xml-parser": "latest",
+    "fflate": "^0.8.3",
     "react": "latest",
     "react-dom": "latest",
     "vite": "latest",
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@types/react": "latest",
     "@types/react-dom": "latest",
+    "tsx": "^4.23.12",
     "typescript": "latest"
   }
 }

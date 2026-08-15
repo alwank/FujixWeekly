@@ -8,7 +8,7 @@ const USER_AGENT = "FujiPocket/1.0 (source-linked recipe index; metadata and set
 const DEFAULT_DELAY = 1_500;
 const PAGE_SIZE = 100;
 const IMAGE_PARSER_VERSION = 1;
-const RECIPE_PARSER_VERSION = 2;
+const RECIPE_PARSER_VERSION = 3;
 const RECIPE_PATH = resolve("public/data/recipes.json");
 const STATE_PATH = resolve("data/fujixweekly-sync.json");
 
@@ -34,10 +34,43 @@ const LABELS = [
 ];
 const labelLookup = new Map(LABELS.flatMap(([canonical, aliases]) => aliases.map((alias) => [alias.toLowerCase(), canonical])));
 const labelPattern = [...labelLookup.keys()].sort((a, b) => b.length - a.length).map(escapeRegExp).join("|");
-const legacyFilmSimulationPattern = /^(?:provia|velvia|astia|classic chrome|pro\s+neg\.?\s+(?:hi|std)|acros(?:\s*\+\s*[ryg])?|monochrome(?:\s*\+\s*[ryg])?|sepia|eterna(?:\s+bleach\s+bypass)?|classic negative|nostalgic negative|reala ace)$/i;
+const legacyFilmSimulationPattern = /^(?:provia(?:\s*\/\s*(?:std|standard))?|velvia(?:\s*\/\s*vivid)?|astia(?:\s*\/\s*soft)?|classic chrome|pro\s+neg\.?\s*(?:\/\s*)?(?:hi|std)|acros(?:\s*\+\s*(?:ye|r|g))?|monochrome(?:\s*\+\s*(?:ye|r|g))?|sepia|eterna(?:\s*\/\s*cinema|\s+bleach\s+bypass)?|classic neg(?:ative)?|nostalgic neg(?:ative)?|reala ace)$/i;
+const filmSimulationAliases = [
+  ["Provia/Standard", ["provia", "provia/std", "provia/standard"]],
+  ["Velvia/Vivid", ["velvia", "velvia/vivid"]],
+  ["Astia/Soft", ["astia", "astia/soft"]],
+  ["Classic Chrome", ["classic chrome"]],
+  ["PRO Neg. Hi", ["pro neg hi", "pro neg. hi", "pro neg/hi"]],
+  ["PRO Neg. Std", ["pro neg std", "pro neg. std", "pro neg/std"]],
+  ["Eterna/Cinema", ["eterna", "eterna/cinema"]],
+  ["Eterna Bleach Bypass", ["eterna bleach bypass", "bleach bypass"]],
+  ["Classic Neg", ["classic neg", "classic negative"]],
+  ["Nostalgic Neg", ["nostalgic neg", "nostalgic negative"]],
+  ["Reala Ace", ["reala ace"]],
+  ["Acros", ["acros"]],
+  ["Acros+Ye", ["acros+ye", "acros+y", "acros+yellow"]],
+  ["Acros+R", ["acros+r", "acros+red"]],
+  ["Acros+G", ["acros+g", "acros+green"]],
+  ["Monochrome", ["monochrome", "mono"]],
+  ["Monochrome+Ye", ["monochrome+ye", "monochrome+y", "mono+ye", "mono+y", "monochrome+yellow"]],
+  ["Monochrome+R", ["monochrome+r", "mono+r", "monochrome+red"]],
+  ["Monochrome+G", ["monochrome+g", "mono+g", "monochrome+green"]],
+  ["Sepia", ["sepia"]],
+];
 
 const sleep = (ms) => new Promise((resolveDelay) => setTimeout(resolveDelay, ms));
 const normalize = (value = "") => value.replace(/\u00a0/g, " ").replace(/\s+/g, " ").trim();
+const normalizedFilmSimulation = (value = "") => normalize(value).toLowerCase().replace(/[‐–—]/g, "-").replace(/\s*\+\s*/g, "+");
+export function normalizeFilmSimulation(value = "") {
+  const source = normalizedFilmSimulation(value);
+  for (const [canonical, aliases] of filmSimulationAliases) {
+    for (const alias of aliases) {
+      const normalizedAlias = normalizedFilmSimulation(alias);
+      if (source === normalizedAlias || new RegExp(`^${escapeRegExp(normalizedAlias)}(?=\\.|$)`).test(source)) return canonical;
+    }
+  }
+  return null;
+}
 const plainTitle = (value = "") => normalize(cheerio.load(`<span>${value}</span>`)("span").text());
 const objectNames = (value) => Object.values(value ?? {}).map((entry) => typeof entry === "string" ? entry : entry.name).filter(Boolean).map(normalize);
 const sourceUrl = (value = "") => value.replace(/&amp;|&#0*38;/g, "&");
@@ -66,7 +99,8 @@ function settingsFromBlock(html) {
     const pattern = new RegExp(`(?:^|\\s)(${labelPattern})\\s*:\\s*(.*?)(?=\\s+(?:${labelPattern})\\s*:|$)`, "gi");
     for (const match of line.matchAll(pattern)) {
       const label = labelLookup.get(match[1].toLowerCase());
-      const value = normalize(match[2]).replace(/[.]+$/, "");
+      const rawValue = normalize(match[2]).replace(/[.]+$/, "");
+      const value = label === "Film Simulation" ? (normalizeFilmSimulation(rawValue) ?? rawValue) : rawValue;
       if (label && value && !settings.some((setting) => setting.label === label)) {
         settings.push({ label, value });
         if (firstSettingLine === -1) firstSettingLine = index;
@@ -75,8 +109,8 @@ function settingsFromBlock(html) {
   }
   if (!settings.some((setting) => setting.label === "Film Simulation") && settings.length >= 5 && firstSettingLine > 0) {
     const filmSimulation = lines[firstSettingLine - 1];
-    if (!filmSimulation.includes(":") && filmSimulation.split("/").every((value) => legacyFilmSimulationPattern.test(normalize(value)))) {
-      settings.unshift({ label: "Film Simulation", value: filmSimulation });
+    if (!filmSimulation.includes(":") && (legacyFilmSimulationPattern.test(normalize(filmSimulation)) || filmSimulation.split("/").every((value) => legacyFilmSimulationPattern.test(normalize(value))))) {
+      settings.unshift({ label: "Film Simulation", value: normalizeFilmSimulation(filmSimulation) ?? filmSimulation });
     }
   }
   return settings;

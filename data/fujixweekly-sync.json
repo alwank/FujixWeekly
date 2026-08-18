@@ -114954,7 +114954,64 @@
         ]
       },
       "imageParserVersion": 1
+    },
+    "116592": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/17/rsvp-for-fujikina-nyc/",
+      "title": "RSVP for Fujikina NYC!!",
+      "publishedAt": "2026-08-17T19:19:06+00:00",
+      "modifiedAt": "2026-08-17T19:19:07+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Denver",
+        "FocusPoint",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm events",
+        "Fujifilm photowalk",
+        "Fujikina",
+        "Fujikina NYC",
+        "New York City",
+        "photography events",
+        "photowalk"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
+    },
+    "116600": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/18/load-unlimited-recipes-with-a-catch/",
+      "title": "Load Unlimited Recipes …with a catch",
+      "publishedAt": "2026-08-18T03:54:32+00:00",
+      "modifiedAt": "2026-08-18T03:54:33+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Camera blog",
+        "Camera Recipes",
+        "Film Simulation recipe",
+        "Film Simulation Recipe app",
+        "Film Simulation Recipes",
+        "Fuji Recipes",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujifilm recipes",
+        "Photography blog",
+        "Recipe App"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-08-17T04:01:36.962Z"
+  "updatedAt": "2026-08-18T03:57:35.541Z"
 }

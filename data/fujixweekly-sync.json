@@ -114955,6 +114955,39 @@
       },
       "imageParserVersion": 1
     },
+    "116582": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/20/new-send-recipes-to-your-camera-directly-from-the-fuji-x-weekly-app/",
+      "title": "New: Send Recipes to Your Camera directly from the Fuji X Weekly App!!",
+      "publishedAt": "2026-08-20T19:11:49+00:00",
+      "modifiedAt": "2026-08-20T20:03:52+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "App Update",
+        "Camera blog",
+        "Film Recipe App",
+        "Film Simulation App",
+        "Film Simulation recipe",
+        "Film Simulation Recipe app",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji Recipes",
+        "Fuji X Weekly",
+        "Fuji X Weekly app",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujifilm recipes",
+        "Photography blog"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
+    },
     "116592": {
       "sourceUrl": "https://fujixweekly.com/2026/08/17/rsvp-for-fujikina-nyc/",
       "title": "RSVP for Fujikina NYC!!",
@@ -115043,5 +115076,5 @@
       "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-08-20T03:58:12.461Z"
+  "updatedAt": "2026-08-21T03:59:59.440Z"
 }

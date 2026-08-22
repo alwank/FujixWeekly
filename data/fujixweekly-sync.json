@@ -114959,7 +114959,7 @@
       "sourceUrl": "https://fujixweekly.com/2026/08/20/new-send-recipes-to-your-camera-directly-from-the-fuji-x-weekly-app/",
       "title": "New: Send Recipes to Your Camera directly from the Fuji X Weekly App!!",
       "publishedAt": "2026-08-20T19:11:49+00:00",
-      "modifiedAt": "2026-08-20T20:03:52+00:00",
+      "modifiedAt": "2026-08-21T19:00:26+00:00",
       "categories": [
         "Uncategorized"
       ],
@@ -115074,7 +115074,35 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "116666": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/21/fujifilm-is-now-the-3rd-largest-digital-camera-brand/",
+      "title": "Fujifilm is Now the 3rd Largest Digital Camera Brand",
+      "publishedAt": "2026-08-21T20:02:57+00:00",
+      "modifiedAt": "2026-08-21T20:02:58+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Camera blog",
+        "Camera rankings",
+        "Digital Camera Life",
+        "Digital Cameras",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujirumors",
+        "Nikkei Industry Map",
+        "PetaPixel",
+        "Photography blog"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-08-21T03:59:59.440Z"
+  "updatedAt": "2026-08-22T03:55:29.379Z"
 }

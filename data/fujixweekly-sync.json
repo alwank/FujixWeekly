@@ -115133,7 +115133,67 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "117822": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/26/join-me-live-this-thursday/",
+      "title": "Join me LIVE this Thursday!!",
+      "publishedAt": "2026-08-26T04:39:28+00:00",
+      "modifiedAt": "2026-08-26T18:13:33+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Camera blog",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly Live",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Nathalie Boucry",
+        "Photography blog",
+        "SOOC",
+        "SOOC Live",
+        "YouTube"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
+    },
+    "117829": {
+      "sourceUrl": "https://fujixweekly.com/2026/08/26/another-fuji-x-weekly-app-update/",
+      "title": "Another Fuji X Weekly App Update!!",
+      "publishedAt": "2026-08-26T20:51:52+00:00",
+      "modifiedAt": "2026-08-26T20:51:53+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "App Update",
+        "App-to-Camera Recipe Transfer",
+        "Camera blog",
+        "Film Recipe App",
+        "Film Simulation App",
+        "Film Simulation recipe",
+        "Film Simulation Recipe app",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly app",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Photography blog"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-08-26T04:02:22.748Z"
+  "updatedAt": "2026-08-27T14:09:45.409Z"
 }

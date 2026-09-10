@@ -114959,7 +114959,7 @@
       "sourceUrl": "https://fujixweekly.com/2026/08/20/new-send-recipes-to-your-camera-directly-from-the-fuji-x-weekly-app/",
       "title": "New: Send Recipes to Your Camera directly from the Fuji X Weekly App!!",
       "publishedAt": "2026-08-20T19:11:49+00:00",
-      "modifiedAt": "2026-08-21T19:00:26+00:00",
+      "modifiedAt": "2026-09-09T18:38:59+00:00",
       "categories": [
         "Uncategorized"
       ],
@@ -115381,7 +115381,36 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "118007": {
+      "sourceUrl": "https://fujixweekly.com/2026/09/09/recipe-transfer-on-android-more-information/",
+      "title": "Recipe Transfer on Android — More Information",
+      "publishedAt": "2026-09-09T21:41:48+00:00",
+      "modifiedAt": "2026-09-09T21:41:51+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Android app",
+        "App Update",
+        "Camera blog",
+        "Film Simulation recipe",
+        "Film Simulation Recipe app",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly app",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Photography blog"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-09-09T08:07:20.817Z"
+  "updatedAt": "2026-09-10T08:06:29.248Z"
 }

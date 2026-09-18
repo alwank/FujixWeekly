@@ -83740,7 +83740,7 @@
       "sourceUrl": "https://fujixweekly.com/2024/02/27/how-to-program-film-simulation-recipes-to-your-fujifilm-camera/",
       "title": "How to Program Film Simulation Recipes to your Fujifilm Camera",
       "publishedAt": "2024-02-27T22:18:54+00:00",
-      "modifiedAt": "2024-03-02T21:24:13+00:00",
+      "modifiedAt": "2026-09-18T00:09:49+00:00",
       "categories": [
         "Uncategorized"
       ],
@@ -115553,7 +115553,40 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "118163": {
+      "sourceUrl": "https://fujixweekly.com/2026/09/18/how-to-use-the-new-recipe-transfer-feature-in-the-fuji-x-weekly-app-a-practical-guide/",
+      "title": "How to use the new Recipe Transfer feature in the Fuji X Weekly App — A Practical Guide",
+      "publishedAt": "2026-09-18T00:06:40+00:00",
+      "modifiedAt": "2026-09-18T00:06:41+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "App Update",
+        "App-to-Camera Recipe Transfer",
+        "Camera blog",
+        "Film Simulation recipe",
+        "Film Simulation Recipe app",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji Recipes",
+        "Fuji X Weekly",
+        "Fuji X Weekly app",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujifilm recipes",
+        "Photography blog",
+        "Recipe Transfer"
+      ],
+      "status": "not_recipe",
+      "recipeParserVersion": 3
     }
   },
-  "updatedAt": "2026-09-17T08:37:53.789Z"
+  "updatedAt": "2026-09-18T08:13:41.834Z"
 }

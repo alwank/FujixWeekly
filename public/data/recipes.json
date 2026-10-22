@@ -1,5 +1,275 @@
 [
   {
+    "id": "fujixweekly:118510",
+    "sourceUrl": "https://fujixweekly.com/2026/10/22/kinacolor-26-film-simulation-recipe/",
+    "title": "KinaColor 26 Film Simulation Recipe",
+    "publishedAt": "2026-10-22T00:59:00+00:00",
+    "modifiedAt": "2026-10-22T01:08:15+00:00",
+    "cameraGeneration": "X-Trans V",
+    "categories": [
+      "Uncategorized"
+    ],
+    "tags": [
+      "Bryan Minear",
+      "Camera blog",
+      "Camera Recipes",
+      "Classic Negative Recipe",
+      "Film Simulation",
+      "Film Simulation recipe",
+      "Film Simulation Recipes",
+      "Fuji blog",
+      "Fuji X Weekly",
+      "Fuji X Weekly blog",
+      "Fuji X Weekly film simulation",
+      "Fuji X Weekly Recipe",
+      "Fujifilm",
+      "Fujifilm blog",
+      "Fujifilm Blogger",
+      "Fujifilm camera blog",
+      "Fujifilm Classic Negative",
+      "Fujifilm GFX100RF",
+      "Fujifilm X-T5",
+      "Fujikina NYC",
+      "New York City Photography",
+      "Photography blog"
+    ],
+    "settings": [
+      {
+        "label": "Film Simulation",
+        "value": "Classic Neg"
+      },
+      {
+        "label": "Grain Effect",
+        "value": "Weak, Small"
+      },
+      {
+        "label": "Color Chrome Effect",
+        "value": "Strong"
+      },
+      {
+        "label": "Color Chrome FX Blue",
+        "value": "Weak"
+      },
+      {
+        "label": "White Balance",
+        "value": "Auto, +3 Red & -5 Blue"
+      },
+      {
+        "label": "Dynamic Range",
+        "value": "DR200"
+      },
+      {
+        "label": "Highlight",
+        "value": "+1"
+      },
+      {
+        "label": "Shadow",
+        "value": "-1"
+      },
+      {
+        "label": "Color",
+        "value": "+4"
+      },
+      {
+        "label": "Sharpness",
+        "value": "-1"
+      },
+      {
+        "label": "High ISO NR",
+        "value": "-4"
+      },
+      {
+        "label": "Clarity",
+        "value": "0"
+      },
+      {
+        "label": "ISO",
+        "value": "Auto, up to ISO 6400"
+      },
+      {
+        "label": "Exposure Compensation",
+        "value": "-1/3 to +1/3 (typically)"
+      }
+    ],
+    "exampleImages": [
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55571369470_63e9108ed9_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Everything Like New – Santa Rosa, NM – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55569914957_9b3bd3a232_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "No Vacancy Tower – Santa Rosa, NM – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55588238275_1dcfb1fbe2_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Leaning Tower of Texas – Britten, TX – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55587998889_7172926232_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Horse Behind Barbed Wire – Shamrock, TX – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55563792223_c140ccb9fd_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Building Storm Behind Lamppost – Buckeye, AZ – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55563684156_42ecd2f869_h.jpg?fit=1600%2C1068&ssl=1",
+        "alt": "",
+        "caption": "Trailing Daisy – Buckeye, AZ – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55569720244_e9daaeca25_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Bougainvillea & Brick – Buckeye, AZ – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604275199_3f640762f8_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Breakfast Berries – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55569669793_648b212c6b_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Road Rider – Buckeye, AZ – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55596006672_e811bb577f_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Urban Motorcycle – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597019356_afdc5cb6df_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Ghost with Coffee – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604478910_0b72275a5a_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Reflected in the Brick – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604276444_9757b4f15b_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Long Island Cityscape – Queens, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604424219_8f1c5b7b4f_h.jpg?fit=1066%2C1599&ssl=1",
+        "alt": "",
+        "caption": "Central Park in October – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597022366_30d412c78b_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "B&B Discount Center – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604071241_275483d7d5_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Light, Shadow, Reflection – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597157988_420aae2836_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Grand Street Station – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55595997367_6a9c2af858_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Hayden Goldsworthy – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597422755_6997ff6163_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Coco Tolentino – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597152518_ea4c8b6c0a_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Flowers & Pumpkins – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597230634_dbbf0582cd_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Rainy Day Hustle – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597434250_1c4fc14d89_h.jpg?fit=1068%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Crossing Upside Down – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597440335_91fd23594b_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Vests & Cones – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55596010287_136bb5c0a7_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Engine 55 – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604646600_999ff0404f_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Manhattan Bridge & Square – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55603046442_a990b1dab4_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Lady Liberty – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604465495_05a6460334_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Yellow Ferry Boat – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604204343_bfe9c930fd_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Time for Sunset – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55604257689_07eb94473a_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Brooklyn Bridge from Above – New York, NY – Fujifilm X-T5"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597431785_d96b08495a_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Katz’s at Dusk – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55596006482_ca8256d1be_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Delicatessen – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597432040_9b660c0f27_h.jpg?fit=1600%2C1067&ssl=1",
+        "alt": "",
+        "caption": "Katz’s Delicatessen – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55597429590_fcfb489d34_h.jpg?fit=1067%2C1600&ssl=1",
+        "alt": "",
+        "caption": "Creperie – New York, NY – Fujifilm GFX100RF"
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2021/03/img_5106.jpg?fit=646%2C250&ssl=1",
+        "alt": "",
+        "caption": ""
+      },
+      {
+        "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2020/11/apple-app-store-icon-1.png?fit=500%2C174&ssl=1",
+        "alt": "",
+        "caption": ""
+      }
+    ]
+  },
+  {
     "id": "fujixweekly:118246",
     "sourceUrl": "https://fujixweekly.com/2026/09/29/cinestill-800t-v2-a-fujifilm-recipes-for-x-trans-v-cameras/",
     "title": "CineStill 800T v2 — A Fujifilm Recipes for X-Trans V Cameras",

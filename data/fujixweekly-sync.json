@@ -116382,7 +116382,240 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "118609": {
+      "sourceUrl": "https://fujixweekly.com/2026/10/27/agfachrome-rsx-ii-200-expired-a-film-simulation-recipe-for-5th-gen-fujifilm-cameras/",
+      "title": "AgfaChrome RSX II 200 Expired — A Film Simulation Recipe for 5th-Gen Fujifilm Cameras",
+      "publishedAt": "2026-10-27T01:29:30+00:00",
+      "modifiedAt": "2026-10-27T01:29:33+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "AgfaChrome",
+        "Camera blog",
+        "Eterna Bleach Bypass",
+        "Eterna Bleach Bypass recipe",
+        "Film Simulation",
+        "Film Simulation recipe",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji Recipes",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujifilm GFX100RF",
+        "Fujifilm recipes",
+        "Fujifilm X-E5",
+        "Fujifilm X-T5",
+        "Photography blog",
+        "Thomas Schwab"
+      ],
+      "status": "recipe",
+      "recipeParserVersion": 3,
+      "recipe": {
+        "id": "fujixweekly:118609",
+        "sourceUrl": "https://fujixweekly.com/2026/10/27/agfachrome-rsx-ii-200-expired-a-film-simulation-recipe-for-5th-gen-fujifilm-cameras/",
+        "title": "AgfaChrome RSX II 200 Expired — A Film Simulation Recipe for 5th-Gen Fujifilm Cameras",
+        "publishedAt": "2026-10-27T01:29:30+00:00",
+        "modifiedAt": "2026-10-27T01:29:33+00:00",
+        "cameraGeneration": "X-Trans V",
+        "categories": [
+          "Uncategorized"
+        ],
+        "tags": [
+          "AgfaChrome",
+          "Camera blog",
+          "Eterna Bleach Bypass",
+          "Eterna Bleach Bypass recipe",
+          "Film Simulation",
+          "Film Simulation recipe",
+          "Film Simulation Recipes",
+          "Fuji blog",
+          "Fuji Recipes",
+          "Fuji X Weekly",
+          "Fuji X Weekly blog",
+          "Fuji X Weekly film simulation",
+          "Fuji X Weekly Recipe",
+          "Fujifilm",
+          "Fujifilm blog",
+          "Fujifilm Blogger",
+          "Fujifilm camera blog",
+          "Fujifilm GFX100RF",
+          "Fujifilm recipes",
+          "Fujifilm X-E5",
+          "Fujifilm X-T5",
+          "Photography blog",
+          "Thomas Schwab"
+        ],
+        "settings": [
+          {
+            "label": "Film Simulation",
+            "value": "Eterna Bleach Bypass"
+          },
+          {
+            "label": "Grain Effect",
+            "value": "Strong, Small"
+          },
+          {
+            "label": "Color Chrome Effect",
+            "value": "Off"
+          },
+          {
+            "label": "Color Chrome FX Blue",
+            "value": "Strong"
+          },
+          {
+            "label": "White Balance",
+            "value": "Auto Ambiance Priority, +3 Red & -5 Blue"
+          },
+          {
+            "label": "Dynamic Range",
+            "value": "DR-Auto"
+          },
+          {
+            "label": "Highlight",
+            "value": "-1.5"
+          },
+          {
+            "label": "Shadow",
+            "value": "+0.5"
+          },
+          {
+            "label": "Color",
+            "value": "-2"
+          },
+          {
+            "label": "Sharpness",
+            "value": "+1"
+          },
+          {
+            "label": "High ISO NR",
+            "value": "-4"
+          },
+          {
+            "label": "Clarity",
+            "value": "+3"
+          },
+          {
+            "label": "ISO",
+            "value": "Auto, up to ISO 6400"
+          },
+          {
+            "label": "Exposure Compensation",
+            "value": "-1/3 to +2/3 (typically)"
+          }
+        ],
+        "exampleImages": [
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608434843_7373d4fe0f_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Katz’s on Ludlow – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608257561_188411cdcf_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Manhattan Night – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55607242667_65b990f929_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Waiting for the Subway Train – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608441773_1f383de1a8_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Latte – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608468849_997dcacd2f_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Chandeliers – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608303071_9f2af490b6_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Gnocchi on 9th – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55610473699_4c33c69b1f_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Boxes on a Dolly – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608436163_7b7aa47ff4_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Motorcycle & Mattress – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55610472889_a28878ffdd_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Ruili Food Company – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55607286727_e98aa1649c_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Street Photographer – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608436403_16a2d397ad_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Shoefiti – New York, NY – Fujifilm GFX100RF"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55609884976_42001ca275_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Jim Moot’s Car – Miller, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55609818341_be188ccc61_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Chevy Headlights – Atlanta, IL – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608480669_675c5c34b5_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "General Sherman – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55614099238_76102d543e_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Rosie – Tulsa, OK – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608859807_70178f4f66_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Devils Elbow Bridge – Devils Elbow, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608398348_1ecb750f78_h.jpg?fit=1600%2C1068&ssl=1",
+            "alt": "",
+            "caption": "Sunstar in Central Park – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/10/55608405778_3b12c163ff_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Light Pouring Over Pond – New York, NY – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2021/03/img_5106.jpg?fit=646%2C250&ssl=1",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2020/11/apple-app-store-icon-1.png?fit=500%2C174&ssl=1",
+            "alt": "",
+            "caption": ""
+          }
+        ]
+      },
+      "imageParserVersion": 1
     }
   },
-  "updatedAt": "2026-10-26T08:51:21.304Z"
+  "updatedAt": "2026-10-27T08:56:58.648Z"
 }

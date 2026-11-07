@@ -116769,7 +116769,245 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "119482": {
+      "sourceUrl": "https://fujixweekly.com/2026/11/06/atlantic-sunrise-a-fujifilm-film-simulation-recipe/",
+      "title": "Atlantic Sunrise — A Fujifilm Film Simulation Recipe",
+      "publishedAt": "2026-11-06T20:27:57+00:00",
+      "modifiedAt": "2026-11-06T20:30:37+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Camera blog",
+        "Camera Recipes",
+        "Dan Allen",
+        "Film Simulation",
+        "Film Simulation recipe",
+        "Fuji blog",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fujifilm",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Fujifilm Provia",
+        "Fujifilm Provia Film Simulation",
+        "Fujifilm X-E5",
+        "Fujifilm X-T5",
+        "Fujifilm X100VI",
+        "Golden Hour Photography",
+        "Photography blog",
+        "Provia film simulation",
+        "Provia Recipes",
+        "Sunrise",
+        "sunset photography"
+      ],
+      "status": "recipe",
+      "recipeParserVersion": 3,
+      "recipe": {
+        "id": "fujixweekly:119482",
+        "sourceUrl": "https://fujixweekly.com/2026/11/06/atlantic-sunrise-a-fujifilm-film-simulation-recipe/",
+        "title": "Atlantic Sunrise — A Fujifilm Film Simulation Recipe",
+        "publishedAt": "2026-11-06T20:27:57+00:00",
+        "modifiedAt": "2026-11-06T20:30:37+00:00",
+        "cameraGeneration": "GFX",
+        "categories": [
+          "Uncategorized"
+        ],
+        "tags": [
+          "Camera blog",
+          "Camera Recipes",
+          "Dan Allen",
+          "Film Simulation",
+          "Film Simulation recipe",
+          "Fuji blog",
+          "Fuji X Weekly",
+          "Fuji X Weekly blog",
+          "Fujifilm",
+          "Fujifilm blog",
+          "Fujifilm Blogger",
+          "Fujifilm camera blog",
+          "Fujifilm Provia",
+          "Fujifilm Provia Film Simulation",
+          "Fujifilm X-E5",
+          "Fujifilm X-T5",
+          "Fujifilm X100VI",
+          "Golden Hour Photography",
+          "Photography blog",
+          "Provia film simulation",
+          "Provia Recipes",
+          "Sunrise",
+          "sunset photography"
+        ],
+        "settings": [
+          {
+            "label": "Film Simulation",
+            "value": "Provia/Standard"
+          },
+          {
+            "label": "Grain Effect",
+            "value": "Off"
+          },
+          {
+            "label": "Color Chrome Effect",
+            "value": "Strong"
+          },
+          {
+            "label": "Color Chrome FX Blue",
+            "value": "Weak"
+          },
+          {
+            "label": "White Balance",
+            "value": "Daylight, +4 Red & -2 Blue"
+          },
+          {
+            "label": "Dynamic Range",
+            "value": "DR400"
+          },
+          {
+            "label": "Highlight",
+            "value": "-1"
+          },
+          {
+            "label": "Shadow",
+            "value": "-1"
+          },
+          {
+            "label": "Color",
+            "value": "+2"
+          },
+          {
+            "label": "Sharpness",
+            "value": "+1"
+          },
+          {
+            "label": "High ISO NR",
+            "value": "-4"
+          },
+          {
+            "label": "Clarity",
+            "value": "0"
+          },
+          {
+            "label": "ISO",
+            "value": "Auto, up to ISO 6400"
+          },
+          {
+            "label": "Exposure Compensation",
+            "value": "-2 to +2/3 (typically)"
+          }
+        ],
+        "exampleImages": [
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/006-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetAdirondackMountains.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X100VI – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/005-AtlanticSunriseRecipe-XtransV-DanAllen-Sunrise-LakeOntario.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/011-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetCapeCodBay.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/014-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetCapeCodBay.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/009-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetKodakTowerRochester.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X100VI – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/012-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetCapeCodAtlanticOcean.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/003-AtlanticSunriseRecipe-GFX-DanAllen-SunriseCapeCodAtlanticOcean.jpg?fit=1200%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/007-AtlanticSunriseRecipe-XtransV-DanAllen-SunsetAdirondackMountains.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Fujifilm X-T5 – Photo by Dan Allen"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624752030_3137d64371_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Vines on a Windmill – Afton, OK – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624753145_75b757c39f_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Big A, Texaco Giant – Galena, KS – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55623326257_2e138192d2_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "266 Gas – Galena, KS – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624464773_8af7e302a8_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Abandoned Car & Motorcycle – Miller, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624756575_33b3581ab8_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Abandoned Gable – Lincoln, IL – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55623329927_2e1e34a982_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Hilton – St Louis, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624757115_2df427e0ee_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "The Tropics Dining Room – Lincoln, IL – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624330461_3993d6c30f_h.jpg?fit=1600%2C1068&ssl=1",
+            "alt": "",
+            "caption": "Moon at Sunset – Springfield, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624466333_22ac51c69f_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Park Central Fountain – Springfield, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55624755255_46a963495a_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "History Museum – Springfield, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2026/11/55623329702_c33056d77d_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Andy’s – Springfield, MO – Fujifilm X-E5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2021/03/img_5106.jpg?fit=646%2C250&ssl=1",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2020/11/apple-app-store-icon-1.png?fit=500%2C174&ssl=1",
+            "alt": "",
+            "caption": ""
+          }
+        ]
+      },
+      "imageParserVersion": 1
     }
   },
-  "updatedAt": "2026-11-06T10:49:18.823Z"
+  "updatedAt": "2026-11-07T10:02:03.018Z"
 }

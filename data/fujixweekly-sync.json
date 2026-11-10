@@ -116682,7 +116682,7 @@
       "sourceUrl": "https://fujixweekly.com/2026/11/02/5-must-try-astia-recipes/",
       "title": "5 Must-Try Astia Recipes",
       "publishedAt": "2026-11-02T21:40:48+00:00",
-      "modifiedAt": "2026-11-02T21:40:50+00:00",
+      "modifiedAt": "2026-11-09T23:54:40+00:00",
       "categories": [
         "Uncategorized"
       ],
@@ -117034,7 +117034,264 @@
       ],
       "status": "not_recipe",
       "recipeParserVersion": 3
+    },
+    "119590": {
+      "sourceUrl": "https://fujixweekly.com/2026/11/09/astia-azure-a-fujifilm-x-trans-iv-x-trans-v-film-simulation-recipe/",
+      "title": "Astia Azure — A Fujifilm X-Trans IV & X-Trans V Film Simulation Recipe",
+      "publishedAt": "2026-11-09T23:44:27+00:00",
+      "modifiedAt": "2026-11-09T23:44:28+00:00",
+      "categories": [
+        "Uncategorized"
+      ],
+      "tags": [
+        "Astia Film Simulation",
+        "Astia Film Simulation recipe",
+        "Astia Recipe",
+        "Camera blog",
+        "Camera Recipes",
+        "Film Simulation",
+        "Film Simulation recipe",
+        "Film Simulation Recipes",
+        "Fuji blog",
+        "Fuji Recipes",
+        "Fuji X Weekly",
+        "Fuji X Weekly blog",
+        "Fuji X Weekly film simulation",
+        "Fuji X Weekly Recipe",
+        "Fujifilm",
+        "Fujifilm Astia",
+        "Fujifilm blog",
+        "Fujifilm Blogger",
+        "Fujifilm camera blog",
+        "Photography blog"
+      ],
+      "status": "recipe",
+      "recipeParserVersion": 3,
+      "recipe": {
+        "id": "fujixweekly:119590",
+        "sourceUrl": "https://fujixweekly.com/2026/11/09/astia-azure-a-fujifilm-x-trans-iv-x-trans-v-film-simulation-recipe/",
+        "title": "Astia Azure — A Fujifilm X-Trans IV & X-Trans V Film Simulation Recipe",
+        "publishedAt": "2026-11-09T23:44:27+00:00",
+        "modifiedAt": "2026-11-09T23:44:28+00:00",
+        "cameraGeneration": "X-Trans V",
+        "categories": [
+          "Uncategorized"
+        ],
+        "tags": [
+          "Astia Film Simulation",
+          "Astia Film Simulation recipe",
+          "Astia Recipe",
+          "Camera blog",
+          "Camera Recipes",
+          "Film Simulation",
+          "Film Simulation recipe",
+          "Film Simulation Recipes",
+          "Fuji blog",
+          "Fuji Recipes",
+          "Fuji X Weekly",
+          "Fuji X Weekly blog",
+          "Fuji X Weekly film simulation",
+          "Fuji X Weekly Recipe",
+          "Fujifilm",
+          "Fujifilm Astia",
+          "Fujifilm blog",
+          "Fujifilm Blogger",
+          "Fujifilm camera blog",
+          "Photography blog"
+        ],
+        "settings": [
+          {
+            "label": "Film Simulation",
+            "value": "Astia/Soft"
+          },
+          {
+            "label": "Grain Effect",
+            "value": "Weak/Small"
+          },
+          {
+            "label": "Color Chrome Effect",
+            "value": "Strong"
+          },
+          {
+            "label": "Color Chrome FX Blue",
+            "value": "Strong"
+          },
+          {
+            "label": "White Balance",
+            "value": "Shade, -2 Red & -2 Blue"
+          },
+          {
+            "label": "Dynamic Range",
+            "value": "DR400"
+          },
+          {
+            "label": "Highlight",
+            "value": "-1.5"
+          },
+          {
+            "label": "Shadow",
+            "value": "-1"
+          },
+          {
+            "label": "Color",
+            "value": "-2"
+          },
+          {
+            "label": "Sharpness",
+            "value": "-2"
+          },
+          {
+            "label": "High ISO NR",
+            "value": "-4"
+          },
+          {
+            "label": "Clarity",
+            "value": "+2"
+          },
+          {
+            "label": "ISO",
+            "value": "Auto, up to ISO 6400"
+          },
+          {
+            "label": "Exposure Compensation",
+            "value": "+2/3 to +1 1/3 (typically)"
+          }
+        ],
+        "exampleImages": [
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53630410140_be43d5ae46_h.jpg?fit=1599%2C1066&ssl=1",
+            "alt": "",
+            "caption": "Salt River & Mountain Reflection – Mesa, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53581172792_6d9d844d1c_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Night Lake – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53579431062_45868164e4_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Studio Mirror – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53580748070_fdf3c2f28c_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Photographers – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53580414418_b617ad515e_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Level 4 – Goodyear, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53603514730_6a28d85270_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Sunset Glow & Salt River – Mesa, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53602247517_44456641f4_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Three Cows on the River Bank – Mesa, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53580250271_cd5359972f_h.jpg?fit=1600%2C1068&ssl=1",
+            "alt": "",
+            "caption": "Qaudcycle – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53580690125_71a171a99b_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Skateboarder – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53580690160_3837279d91_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Eat – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53579380567_3da131d3c4_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Gallery – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/03/53580250321_5bb0045092_h.jpg?fit=1066%2C1599&ssl=1",
+            "alt": "",
+            "caption": "Grain – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53629978821_46e618b3a9_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Bridges & Wires – Tempe, AZ – Fujifilm X-E4"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53605224558_2a35f8cc22_h.jpg?fit=1600%2C1068&ssl=1",
+            "alt": "",
+            "caption": "Unfinished Business – Gila Bend, AZ – Fujifilm X100VI"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53597912106_7e2c5bfab1_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Cross & Bell – Tumacacori, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53597325572_9856aeaaa1_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Church Cross – Bisbee, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53598660220_255c0239a2_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Yellow House – Bisbee, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53585927616_2b2c1b6b46_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Abandoned White House – Arlington, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53598242194_61719deae9_h.jpg?fit=1600%2C1068&ssl=1",
+            "alt": "",
+            "caption": "White Fence – Tumacacori, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53597870282_04ca272a9a_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Leaning Saguaro – Tucson, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53596785596_ed9740d8eb_h.jpg?fit=1067%2C1600&ssl=1",
+            "alt": "",
+            "caption": "Rocks & Flowers – Saguaro National Park, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53596995773_47d9f807b9_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Small Palo Verde – Saguaro National Park, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53597111649_b14c1714ee_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Lonely Desert Road – Tucson, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2024/04/53597239680_295ecb2071_h.jpg?fit=1600%2C1067&ssl=1",
+            "alt": "",
+            "caption": "Little Shack on the Hill – Tucson, AZ – Fujifilm X-T5"
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2021/03/img_5106.jpg?fit=646%2C250&ssl=1",
+            "alt": "",
+            "caption": ""
+          },
+          {
+            "sourceUrl": "https://i0.wp.com/fujixweekly.com/wp-content/uploads/2020/11/apple-app-store-icon-1.png?fit=500%2C174&ssl=1",
+            "alt": "",
+            "caption": ""
+          }
+        ]
+      },
+      "imageParserVersion": 1
     }
   },
-  "updatedAt": "2026-11-09T11:26:56.534Z"
+  "updatedAt": "2026-11-10T11:07:00.978Z"
 }
